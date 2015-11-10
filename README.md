@@ -1,6 +1,6 @@
 # Event Component
 
-***[PHPPowertools](https://github.com/PHPPowertools)*** is a web application framework for PHP > 5.4.
+***[PHPPowertools](https://github.com/PHPPowertools)*** is a web application framework for PHP >= 5.4.
 
 ***[PHPPowertools/DOM-Query](https://github.com/PHPPowertools/DOM-Query)*** is the third component of the ***PHPPowertools*** that has been released to the public.
 
