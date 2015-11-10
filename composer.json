@@ -17,7 +17,7 @@
     "target-dir": "PowerTools/Event",
     "autoload": {
         "psr-0": {
-            "PowerTools\\Event": "vendor/PowerTools/Event"
+            "PowerTools\\": "vendor/PowerTools/"
         }
     },
     "extra": {
