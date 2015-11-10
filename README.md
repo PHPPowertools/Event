@@ -4,7 +4,7 @@
 
 ***[PHPPowertools/DOM-Query](https://github.com/PHPPowertools/DOM-Query)*** is the third component of the ***PHPPowertools*** that has been released to the public.
 
-The purpose of this component is to provide a ***[jQuery](http://jquery.com/)*** a PHP-based event handling interface similar to both NodeJS's ***[EventEmitter](https://nodejs.org/api/events.html#events_class_events_eventemitter)*** and your browser's ***[EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)***.
+The purpose of this component is to provide a PHP-based event handling interface similar to both NodeJS's ***[EventEmitter](https://nodejs.org/api/events.html#events_class_events_eventemitter)*** and your browser's ***[EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)***.
 
 ##### Example use :
 
@@ -49,17 +49,21 @@ $emitter->removeAllListeners('go');
 ##### Supported methods :
 
 - [x] [addListener](https://nodejs.org/api/events.html#events_emitter_addlistener_event_listener)
-- [x] addListeners
+- [x] addListeners *(1)*
 - [x] [once](https://nodejs.org/api/events.html#events_emitter_once_event_listener)
 - [x] [removeListener](https://nodejs.org/api/events.html#events_emitter_removelistener_event_listener)
-- [x] removeListeners
-- [x] [removeAllListeners]https://nodejs.org/api/events.html#events_emitter_removealllisteners_event)
+- [x] removeListeners *(1)*
+- [x] [removeAllListeners](https://nodejs.org/api/events.html#events_emitter_removealllisteners_event)
 - [x] [setMaxListeners](https://nodejs.org/api/events.html#events_emitter_setmaxlisteners_n)
 - [x] [getMaxListeners](https://nodejs.org/api/events.html#events_emitter_getmaxlisteners)
 - [x] [listeners](https://nodejs.org/api/events.html#events_emitter_listeners_event)
 - [x] [emit](https://nodejs.org/api/events.html#events_emitter_emit_event_arg1_arg2)
 - [x] [listenerCount](https://nodejs.org/api/events.html#events_emitter_listenercount_type)
 - [x] [dispatch](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent)
+
+-----
+
+1. These methods have no equivalent in either NodeJS's ***[EventEmitter](https://nodejs.org/api/events.html#events_class_events_eventemitter)*** or your browser's ***[EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)***.
 
 -----
 
