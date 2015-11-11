@@ -2,7 +2,7 @@
 
 ***[PHPPowertools](https://github.com/PHPPowertools)*** is a web application framework for PHP >= 5.4.
 
-***[PHPPowertools/DOM-Query](https://github.com/PHPPowertools/DOM-Query)*** is the third component of the ***PHPPowertools*** that has been released to the public.
+***[PHPPowertools/Event](https://github.com/PHPPowertools/Event)*** is the third component of the ***PHPPowertools*** that has been released to the public.
 
 The purpose of this component is to provide a PHP-based event handling interface similar to both NodeJS's ***[EventEmitter](https://nodejs.org/api/events.html#events_class_events_eventemitter)*** and your browser's ***[EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)***.
 
